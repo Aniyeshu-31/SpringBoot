@@ -18,3 +18,4 @@ public class Main {
         //   staff2.assist();
     }
 }
+// AOP -> Aspect Oriented Programming -> is used to remove cross cutting concerns from the business logic
