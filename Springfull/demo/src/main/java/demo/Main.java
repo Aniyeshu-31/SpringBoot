@@ -10,7 +10,7 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
          Doctor obj = context.getBean(Doctor.class);
          obj.assist();
-         obj.setQualification("MBBS");
+         obj.setQualification("MBBS");  
         //   Doctor obj = (Doctor) context.getBean("doctor");
         //   Staff staff = context.getBean(Doctor.class);
         //   Staff staff2 = context.getBean(Nurse.class);
